@@ -120,5 +120,3 @@ xg.eval()
 
 
 pred = PredictionModel(carry_matchup, mid_matchup, offlane_matchup, pair_synergy, matchup_synergy, hero_stats_time, xg, lm)
-
-print(pred.prediction([1,2,3,4,5], [1,2,3,4,5]), sep='\n', end = '\n')
